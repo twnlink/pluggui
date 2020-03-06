@@ -1,0 +1,11 @@
+{
+  "name": "pluggui",
+  "description": "powercord installer",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "command-exists-promise": "^2.0.2",
+    "fs-extra": "^8.1.0",
+    "install-packages": "^0.2.5"
+  }
+}

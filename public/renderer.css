@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Discord';
+  src: url('https://powercord.dev/assets/Discord.otf');
+}
+
+body {
+  background-image: url(https://cdn.discordapp.com/attachments/185046628732895232/204497752091000832/bg3.svg);
+  background-color: #7289da;
+  background-size: 60%;
+  text-align: center;
+  font-family: 'Discord', sans-serif;
+  color: white;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  height: 100%;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.btn {
+  -webkit-app-region: none;
+  width: 105px;
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  padding: 5px 10px;
+  color: #7289da;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  margin: 2px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #dddddd;
+}
+.btn:active {
+  background-color: #eeeeee;
+}
+.btn:disabled {
+  cursor: default;
+
+  filter: brightness(30%);
+}
+
+.con-ct {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 200px;
+
+  margin-top: 15px;
+}
+.console {
+  display: block;
+  width: 98%;
+  background: black;
+  color: white;
+  font-family: 'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  font-size: 12px;
+  -webkit-app-region: none;
+  -webkit-user-select: text;
+  text-align: left;
+  padding: 2px;
+  border: 2px solid #414141;
+  overflow-y: scroll;
+  max-height: 200px;
+}
+
+.console-level-ct {
+  margin-right: 8px;
+}
+.console-level-warn {
+  color: #fcc419;
+}
+.console-level-err {
+  color: #f03e3e;
+}
+.console-level-ok {
+  color: #37b24d;
+}
+.console-level-info {
+  color: #228be6;
+}
+a {
+  color: #748ffc;
+}
+a:active {
+  color: #4c6ef5;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cbcbcb;
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+  border: 0.1px solid #b7b7b7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #909090;
+}
